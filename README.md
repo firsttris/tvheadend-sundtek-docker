@@ -4,9 +4,11 @@
 don't install Sundtek driver on your host.
 
 #### Build
+```bash
 $ git clone {repository}
 $ cd {repository}
 $ docker build -t tvheadend/sundtek .
+```
 
 #### Run:
 (only pass my dvbsky adapter to tvheadend not sundtek)
