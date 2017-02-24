@@ -5,8 +5,8 @@ don't install Sundtek driver on your host.
 
 #### Build
 ```bash
-$ git clone {repository}
-$ cd {repository}
+$ git clone https://github.com/firsttris/tvheadend-sundtek-docker.git
+$ cd tvheadend-sundtek-docker
 $ docker build -t tvheadend/sundtek .
 ```
 
