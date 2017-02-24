@@ -1,15 +1,20 @@
 #### tvheadend-sundtek-docker
 :tv: docker container for tvheadend with sundtek dvb adapter
 
+[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/tristanteu/tvheadend-sundtek-docker/)
+
+
 #### Notes
 don't install sundtek driver on your host.
+
 
 #### Build
 ```bash
 $ git clone https://github.com/firsttris/tvheadend-sundtek-docker.git
 $ cd tvheadend-sundtek-docker
-$ docker build -t tvheadend/sundtek .
+$ docker build -t tristanteu/tvheadend-sundtek-docker .
 ```
+
 
 #### Run:
 So you propably do not need --link and --device:
@@ -29,8 +34,9 @@ docker run \
 -p 9981:9981 \
 -p 9982:9982 \
 --device=/dev/dvb/* \
--d tvheadend/sundtek
+-d tristanteu/tvheadend-sundtek-docker
 ```
+
 
 #### Picons:
 https://github.com/picons/picons-source
