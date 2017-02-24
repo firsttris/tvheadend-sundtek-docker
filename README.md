@@ -2,7 +2,7 @@
 :tv: docker container for tvheadend with sundtek dvb adapter
 
 #### Notes
-don't install Sundtek driver on your host.
+don't install sundtek driver on your host.
 
 #### Build
 ```bash
@@ -12,7 +12,9 @@ $ docker build -t tvheadend/sundtek .
 ```
 
 #### Run:
-(only pass my dvbsky adapter to tvheadend not sundtek)
+So you propably do not need --link and --device:
+In this example i also pass my DVBSky adapter to tvheadend. It dont passes the sundtek adapter because it is not installed on the host.
+I also link oscam into the container.
 ```bash
 docker run \
 --name="tvheadend" \
