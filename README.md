@@ -4,17 +4,20 @@
 [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/tristanteu/tvheadend-sundtek-docker/)
 
 
-#### Notes
-don't install sundtek driver on your host.
 
+Tvheadend is a TV streaming server and recorder for Linux, FreeBSD and Android supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT>IP and HDHomeRun as input sources.  
 
-#### Build
+[tvheadend.org](https://tvheadend.org/)
+
+`Version 4.1-XXXX`
+
+Offical repository as source:   
+https://bintray.com/tvheadend/deb/tvheadend/
+
+### Pull:
 ```bash
-$ git clone https://github.com/firsttris/tvheadend-sundtek-docker.git
-$ cd tvheadend-sundtek-docker
-$ docker build -t tristanteu/tvheadend-sundtek-docker .
+docker pull tristanteu/urbackup-docker
 ```
-
 
 #### Run:
 So you propably do not need --link and --device:
@@ -37,6 +40,15 @@ docker run \
 -d tristanteu/tvheadend-sundtek-docker
 ```
 
+### Important Notice - First Start
+Don't install sundtek driver on your host.
+
+### Build
+```bash
+$ git clone https://github.com/firsttris/tvheadend-sundtek-docker.git
+$ cd tvheadend-sundtek-docker
+$ docker build -t tristanteu/tvheadend-sundtek-docker .
+```
 
 #### Picons:
 https://github.com/picons/picons-source
