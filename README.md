@@ -52,3 +52,6 @@ $ docker build -t tristanteu/tvheadend-sundtek-docker .
 
 #### Picons:
 https://github.com/picons/picons-source
+
+## License
+[MIT](http://opensource.org/licenses/MIT)
