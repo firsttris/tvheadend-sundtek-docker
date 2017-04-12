@@ -14,12 +14,12 @@ Tvheadend is a TV streaming server and recorder for Linux, FreeBSD and Android s
 Offical repository as source:   
 https://bintray.com/tvheadend/deb/tvheadend/
 
-### Pull:
+### Pull
 ```bash
 docker pull tristanteu/urbackup-docker
 ```
 
-#### Run:
+### Run:
 So you propably do not need --link and --device:
 In this example i also pass my DVBSky adapter to tvheadend. It dont passes the sundtek adapter because it is not installed on the host.
 I also link oscam into the container.
@@ -50,7 +50,7 @@ $ cd tvheadend-sundtek-docker
 $ docker build -t tristanteu/tvheadend-sundtek-docker .
 ```
 
-#### Picons:
+### Picons:
 https://github.com/picons/picons-source
 
 ## License
