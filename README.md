@@ -53,5 +53,8 @@ $ docker build -t tristanteu/tvheadend-sundtek-docker .
 ### Picons:
 https://github.com/picons/picons-source
 
+## Donate
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KEAR9ZC228YCL)
+
 ## License
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
