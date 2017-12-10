@@ -1,4 +1,4 @@
-## Discontinued 
+## :bangbang: Discontinued 
  sold my sundtek-tv sticks and switched to a SAT>IP box
 
 #### tvheadend-sundtek-docker
