@@ -1,3 +1,6 @@
+## Discontinued 
+ sold my sundtek-tv sticks and switched to a SAT>IP box
+
 #### tvheadend-sundtek-docker
 :tv: docker container for tvheadend with sundtek dvb adapter
 
@@ -13,11 +16,6 @@ Tvheadend is a TV streaming server and recorder for Linux, FreeBSD and Android s
 
 Offical repository as source:   
 https://bintray.com/tvheadend/deb/tvheadend/
-
-### Pull
-```bash
-docker pull tristanteu/urbackup-docker
-```
 
 ### Run:
 So you propably do not need --link and --device:
